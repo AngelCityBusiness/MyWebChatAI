@@ -1,10 +1,10 @@
-// angelCityChatPlugin.js
+// bot-10830.js
 (function() {
     var script = document.createElement('script');
     script.src = 'https://app.aminos.ai/js/chat_plugin.js'; // Original script source
-    script.setAttribute('data-bot-id', '10830'); // Your bot ID or any other needed attributes
-    
+    script.setAttribute('data-bot-id', '10830'); // Setting the bot ID
+
     document.head.appendChild(script);
 
-    // Here, you can also add any additional JavaScript code to modify or enhance the original script's behavior
+    // Optionally, add any additional JavaScript code here
 })();
