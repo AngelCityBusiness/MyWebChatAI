@@ -13,8 +13,6 @@ Lastly, I used a tool called Obfuscator.io to make my code illegible if someone 
 
 /*
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
 // bot-10830.js
 
 (function() {
@@ -47,7 +45,5 @@ Lastly, I used a tool called Obfuscator.io to make my code illegible if someone 
 
     // Optionally, add any additional JavaScript code here
 })();
-
-//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 */
