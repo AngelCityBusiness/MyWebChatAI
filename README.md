@@ -12,10 +12,15 @@ Which was changed from Aminos.ai's code of:
 Lastly, I used a tool called Obfuscator.io to make my code illegible if someone tried to go to the URL in the Integration Code I give them and reverse engineer it. Here is the original code:
 
 /*
+
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 // bot-10830.js
+
 (function() {
+
     // Load the chat plugin
+    
     var script = document.createElement('script');
     script.src = 'https://app.aminos.ai/js/chat_plugin_ghl.js'; // Original script source
     script.setAttribute('data-bot-id', '10830'); // Setting the bot ID
