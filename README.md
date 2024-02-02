@@ -40,7 +40,7 @@ Lastly, I used a tool called Obfuscator.io to make my code illegible if someone 
     //PUT NEW INTEGRATION CODE IN COMMENT BELOW!!!
 
     //************************************************
-    //NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/Integration-Code/bot-10830.js"></script>
+    //NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/bot-10830.js"></script>
     //************************************************
 
     // Optionally, add any additional JavaScript code here
