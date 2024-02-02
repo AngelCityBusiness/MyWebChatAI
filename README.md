@@ -47,5 +47,7 @@ Lastly, I used a tool called Obfuscator.io to make my code illegible if someone 
 
     // Optionally, add any additional JavaScript code here
 })();
+
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
 */
