@@ -11,6 +11,7 @@ Which was changed from Aminos.ai's code of:
 
 Lastly, I used a tool called Obfuscator.io to make my code illegible if someone tried to go to the URL in the Integration Code I give them and reverse engineer it. Here is the original code:
 
+/*
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // bot-10830.js
 (function() {
@@ -42,3 +43,4 @@ Lastly, I used a tool called Obfuscator.io to make my code illegible if someone 
     // Optionally, add any additional JavaScript code here
 })();
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+*/
