@@ -10,6 +10,7 @@
 
     //************************************************
     //NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/Integration-Code/bot-10830.js"></script>
+    //Don't forget to include ChatBot text formatting: <style> div.talktext p {color: black !important; font-family: sans-serif !important;} </style>
     //************************************************
 
     // Optionally, add any additional JavaScript code here
