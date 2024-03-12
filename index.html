@@ -55,6 +55,11 @@
     top: 0; /* Example to keep it at the top; adjust as necessary */
 }
 
+        /* Ensure the container of the "X" icon has a relative positioning context if not already set */
+.sc-launcher.opened {
+    position: relative; /* Creates a positioning context for absolutely positioned children */
+}
+
     </style>
 </head>
 <body>
