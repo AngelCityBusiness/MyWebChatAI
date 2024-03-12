@@ -48,12 +48,12 @@
             align-items: flex-start; /* Align children to the start (left) */
         }
 
-        /* Align the closed chat icon to the left if necessary */
-        .sc-closed-icon {
-            /* If the icon needs to be aligned within its container, you might adjust here */
-            /* This example assumes the icon alignment is to be adjusted within a flex container */
-            justify-content: flex-start !important;
-        }
+/* Ensure the chat window close icon ("X") is aligned to the left */
+.sc-closed-icon {
+    position: absolute; /* Adjust positioning method as necessary */
+    left: 0; /* Align to the left edge of the nearest positioned ancestor */
+    top: 0; /* Example to keep it at the top; adjust as necessary */
+}
 
     </style>
 </head>
