@@ -38,6 +38,23 @@
     text-align: left !important; /* Align text to the left */
 }
 
+                /* Align chat window content to the left */
+        .sc-chat-window .sc-message--text-content {
+            text-align: left !important;
+        }
+
+        /* Ensure the chat window itself is aligned according to its container */
+        .sc-chat-window {
+            align-items: flex-start; /* Align children to the start (left) */
+        }
+
+        /* Align the closed chat icon to the left if necessary */
+        .sc-closed-icon {
+            /* If the icon needs to be aligned within its container, you might adjust here */
+            /* This example assumes the icon alignment is to be adjusted within a flex container */
+            justify-content: flex-start !important;
+        }
+
     </style>
 </head>
 <body>
