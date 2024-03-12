@@ -48,17 +48,17 @@
             align-items: flex-start; /* Align children to the start (left) */
         }
 
-/* Ensure the chat window close icon ("X") is aligned to the left */
-.sc-closed-icon {
-    position: absolute; /* Adjust positioning method as necessary */
-    left: 0; /* Align to the left edge of the nearest positioned ancestor */
-    top: 0; /* Example to keep it at the top; adjust as necessary */
+.sc-launcher.opened {
+    position: relative; /* Ensure this container is positioned */
 }
 
-        /* Ensure the container of the "X" icon has a relative positioning context if not already set */
-.sc-launcher.opened {
-    position: relative; /* Creates a positioning context for absolutely positioned children */
+.sc-launcher .sc-closed-icon {
+    position: absolute;
+    right: auto; /* Reset any right alignment */
+    left: 0; /* Align to the left side of its container */
+    top: 0; /* Adjust if necessary to vertically center or place as needed */
 }
+
 
     </style>
 </head>
