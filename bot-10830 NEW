@@ -1,8 +1,6 @@
-
-
 // bot-10830.js
 
-(function() {
+function() {
 
 // Load the chat plugin
 
