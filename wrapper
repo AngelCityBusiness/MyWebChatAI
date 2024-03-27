@@ -1,3 +1,5 @@
+<!--
+/*
 // angelCityChatPlugin.js
 (function() {
     var script = document.createElement('script');
@@ -8,3 +10,5 @@
 
     // Here, you can also add any additional JavaScript code to modify or enhance the original script's behavior
 })();
+*/
+-->
