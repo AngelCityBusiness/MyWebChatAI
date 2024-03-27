@@ -1,14 +1,14 @@
-// bot-17772.js
+/* bot-17772.js
 
 (function() {
 
-    // Load the chat plugin
+
     var script = document.createElement('script');
     script.src = 'https://app.aminos.ai/js/chat_plugin.js'; // Original script source
     script.setAttribute('data-bot-id', '17772'); // Setting the bot ID
     document.head.appendChild(script);
 
-    // Add custom CSS styling
+
     var css = `div.talktext p {
         color: black !important;
         font-family: sans-serif !important;
@@ -21,9 +21,9 @@
     }
     document.head.appendChild(style);
 
-    // Optionally, add any additional JavaScript code here
 
-})(); // This closing part makes it an Immediately Invoked Function Expression (IIFE)
+
+})();
 
 
 
