@@ -1,4 +1,4 @@
-/* bot-17772.js
+// bot-17772.js
 
 (function() {
 
