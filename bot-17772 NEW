@@ -1,4 +1,4 @@
-// bot-10830.js
+// bot-17772.js
 
 function() {
 
@@ -6,7 +6,7 @@ function() {
 
 var script = document.createElement('script');
 script.src = 'https://app.aminos.ai/js/chat_plugin_ghl.js'; // Original script source
-script.setAttribute('data-bot-id', '10830'); // Setting the bot ID
+script.setAttribute('data-bot-id', '17772'); // Setting the bot ID
 document.head.appendChild(script);
 
 // Add custom CSS styling
@@ -25,7 +25,7 @@ document.head.appendChild(style);
 //PUT NEW INTEGRATION CODE IN COMMENT BELOW!!!
 
 //************************************************
-//NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/bot-10830.js"></script>
+//NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/bot-17772.js"></script>
 //************************************************
 
 // Optionally, add any additional JavaScript code here
