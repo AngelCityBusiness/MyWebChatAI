@@ -1,49 +1,16 @@
-The Integration-Code Repository holds files for creating a wrapper URL code (Integration Code) for their webchat AI bot application.
-The reason I created this was so that I could give my clients an Integration Code branded with my business.
+The MyWebChatAI Repository holds files for creating a wrapper URL code (Integration Code) for their webchat AI bot application.
+It also houses the custom domain www.mywebchatai.com, where I use as a proxy website to show businesses what the webchat bot could look like for their business.
 
-I had too many CNAME records in my angelcitybusiness.com DNS registrar, so I changed the domain to angelcitymarketing.com, which I don't use anymore.
+The reason I created this was so that I could give my clients an Integration Code branded with my business in addition to showing them what a webchat ai bot would look like on their website.
 
 Example of Integration Code:
-<script src="https://www.angelcitymarketing.com/Integration-Code/bot-10830.js"></script>
+<script src="https://www.mywebchatai.com/bot-17772.js"></script>
 
 Which was changed from Aminos.ai's code of:
-<script src="https://app.aminos.ai/js/chat_plugin_ghl.js" data-bot-id="10830"></script>
+<script src="https://app.aminos.ai/js/chat_plugin.js" data-bot-id="10830"></script>
 
-Lastly, I used a tool called Obfuscator.io to make my code illegible if someone tried to go to the URL in the Integration Code I give them and reverse engineer it. Here is the original code:
 
-/*
 
-// bot-10830.js
-
-(function() {
-
-    // Load the chat plugin
-    
-    var script = document.createElement('script');
-    script.src = 'https://app.aminos.ai/js/chat_plugin_ghl.js'; // Original script source
-    script.setAttribute('data-bot-id', '10830'); // Setting the bot ID
-    document.head.appendChild(script);
-
-    // Add custom CSS styling
-    var css = `div.talktext p {
-        color: black !important;
-        font-family: sans-serif !important;
-    }`;
-    var style = document.createElement('style');
-    if (style.styleSheet) {
-        style.styleSheet.cssText = css;
-    } else {
-        style.appendChild(document.createTextNode(css));
-    }
-    document.head.appendChild(style);
-
-    //PUT NEW INTEGRATION CODE IN COMMENT BELOW!!!
-
-    //************************************************
-    //NEW INTEGRATION CODE: <script src="https://www.angelcitymarketing.com/bot-10830.js"></script>
-    //************************************************
-
-    // Optionally, add any additional JavaScript code here
-})();
-
-*/
+Instructions to Create Custom AI Chatbot quickly:
+1. After reaching out to a business and getting confirmation they want to trial the chatbot, Go to browse.ai.
+2. 
