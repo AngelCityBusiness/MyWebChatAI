@@ -21,11 +21,10 @@
     }
     document.head.appendChild(style);
 
-
-
 })();
 
-
+// This creates a wrapper in the form of:
+// <script src="https://www.mywebchatai.com/bot-17772.js"></script>
 
 
 
