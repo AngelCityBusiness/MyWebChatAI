@@ -24,7 +24,7 @@
 })();
 
 // This creates a wrapper in the form of:
-// <script src="https://www.mywebchatai.com/bot-18600.js"></script>
+// <script src="https://www.mywebchatai.com/18600.js"></script>
 
 
 
