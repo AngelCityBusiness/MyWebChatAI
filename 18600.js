@@ -1,4 +1,4 @@
-// bot-17772.js
+// 18600.js
 
 (function() {
 
@@ -21,6 +21,11 @@
     }
     document.head.appendChild(style);
 
+//************************************************
+//NEW INTEGRATION CODE: <script src="https://www.mywebchatai.com/18600.js"></script>
+//************************************************
+
+    
 })();
 
 // This creates a wrapper in the form of:
