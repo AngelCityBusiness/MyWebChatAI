@@ -5,7 +5,7 @@
 
     var script = document.createElement('script');
     script.src = 'https://app.aminos.ai/js/chat_plugin.js'; // Original script source
-    script.setAttribute('data-bot-id', '18598'); // Setting the bot ID
+    script.setAttribute('data-bot-id', '18600'); // Setting the bot ID
     document.head.appendChild(script);
 
 
