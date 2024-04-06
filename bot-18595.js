@@ -5,7 +5,7 @@
 
     var script = document.createElement('script');
     script.src = 'https://app.aminos.ai/js/chat_plugin.js'; // Original script source
-    script.setAttribute('data-bot-id', '18595'); // Setting the bot ID
+    script.setAttribute('data-bot-id', '18597'); // Setting the bot ID
     document.head.appendChild(script);
 
 
@@ -24,7 +24,7 @@
 })();
 
 // This creates a wrapper in the form of:
-// <script src="https://www.mywebchatai.com/bot-18595.js"></script>
+// <script src="https://www.mywebchatai.com/bot-18597.js"></script>
 
 
 
